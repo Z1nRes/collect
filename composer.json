@@ -1,0 +1,24 @@
+{
+    "name": "z1nres/collect",
+    "description": "desc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Z1nRes",
+          "email": "tv.noob@bk.ru"
+        }
+      ],     
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Collect\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    }
+}
